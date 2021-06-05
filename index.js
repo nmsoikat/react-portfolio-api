@@ -50,7 +50,7 @@ client.connect((err) => {
     const filter = {};
     const showOnAbout = req.query.showOnAbout;
     console.log(showOnAbout);
-    
+
     if (showOnAbout === "true") {
       filter.showOnAbout = true;
     }
